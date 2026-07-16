@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+    <radialGradient id="hub" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1e40af"/>
+    </radialGradient>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#b45309"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="100%" stop-color="#0e7490"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#047857"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ec4899"/><stop offset="100%" stop-color="#be185d"/></linearGradient>
+    <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#4338ca"/></linearGradient>
+    <filter id="sh2" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="680" fill="url(#bg2)"/>
+
+  <!-- Title -->
+  <text x="500" y="38" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e293b">七大核心功能架构</text>
+  <text x="500" y="62" text-anchor="middle" font-size="14" fill="#64748b">Seven Core Functions Architecture</text>
+
+  <!-- Connection lines (drawn first, behind nodes) -->
+  <g stroke="#cbd5e1" stroke-width="2" fill="none" opacity="0.5">
+    <line x1="500" y1="340" x2="200" y2="140"/>
+    <line x1="500" y1="340" x2="500" y2="110"/>
+    <line x1="500" y1="340" x2="800" y2="140"/>
+    <line x1="500" y1="340" x2="140" y2="340"/>
+    <line x1="500" y1="340" x2="860" y2="340"/>
+    <line x1="500" y1="340" x2="200" y2="540"/>
+    <line x1="500" y1="340" x2="800" y2="540"/>
+  </g>
+
+  <!-- Central Hub -->
+  <circle cx="500" cy="340" r="75" fill="url(#hub)" filter="url(#sh2)"/>
+  <text x="500" y="328" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">ISW</text>
+  <text x="500" y="348" text-anchor="middle" font-size="13" fill="#fff">医学院教师</text>
+  <text x="500" y="366" text-anchor="middle" font-size="13" fill="#fff">培训技能</text>
+
+  <!-- Function 1: BOPPPS Lesson Plan (top-left) -->
+  <g filter="url(#sh2)">
+    <rect x="110" y="95" width="180" height="90" rx="12" fill="url(#g1)"/>
+    <text x="200" y="122" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">① BOPPPS教案生成</text>
+    <text x="200" y="142" text-anchor="middle" font-size="11" fill="#fff">多学科适配 · 临床案例驱动</text>
+    <text x="200" y="160" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Lesson Plan Generation</text>
+    <text x="200" y="175" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">三维目标 · 质量自检</text>
+  </g>
+
+  <!-- Function 2: Workshop (top-center) -->
+  <g filter="url(#sh2)">
+    <rect x="410" y="65" width="180" height="90" rx="12" fill="url(#g2)"/>
+    <text x="500" y="92" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">② ISW工作坊引导</text>
+    <text x="500" y="112" text-anchor="middle" font-size="11" fill="#fff">4天议程 · 3轮微格教学</text>
+    <text x="500" y="130" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Workshop Facilitation</text>
+    <text x="500" y="145" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">反馈协议 · 引导话术</text>
+  </g>
+
+  <!-- Function 3: Assessment (top-right) -->
+  <g filter="url(#sh2)">
+    <rect x="710" y="95" width="180" height="90" rx="12" fill="url(#g3)"/>
+    <text x="800" y="122" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">③ 教学能力认证</text>
+    <text x="800" y="142" text-anchor="middle" font-size="11" fill="#fff">7维度评分 · 认证报告</text>
+    <text x="800" y="160" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Assessment &amp; Certification</text>
+    <text x="800" y="175" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">发展路径建议</text>
+  </g>
+
+  <!-- Function 4: PPT (left) -->
+  <g filter="url(#sh2)">
+    <rect x="20" y="295" width="170" height="90" rx="12" fill="url(#g4)"/>
+    <text x="105" y="322" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">④ 精品PPT生成</text>
+    <text x="105" y="342" text-anchor="middle" font-size="11" fill="#fff">BOPPPS对齐 · 分页大纲</text>
+    <text x="105" y="360" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Premium PPT Design</text>
+    <text x="105" y="375" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">医学视觉规范</text>
+  </g>
+
+  <!-- Function 5: Progressive QA (right) -->
+  <g filter="url(#sh2)">
+    <rect x="810" y="295" width="170" height="90" rx="12" fill="url(#g5)"/>
+    <text x="895" y="322" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">⑤ 循序问答设计</text>
+    <text x="895" y="342" text-anchor="middle" font-size="11" fill="#fff">Bloom六层 · 问题链</text>
+    <text x="895" y="360" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Progressive Questioning</text>
+    <text x="895" y="375" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">CRS/MEL/EDL/SKL</text>
+  </g>
+
+  <!-- Function 6: Clinical Case (bottom-left) -->
+  <g filter="url(#sh2)">
+    <rect x="110" y="495" width="180" height="90" rx="12" fill="url(#g6)"/>
+    <text x="200" y="522" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">⑥ 临床案例编写</text>
+    <text x="200" y="542" text-anchor="middle" font-size="11" fill="#fff">7阶段渐进 · L1-L5分级</text>
+    <text x="200" y="560" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Clinical Case Writing</text>
+    <text x="200" y="575" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">伦理讨论 · 跨学科链接</text>
+  </g>
+
+  <!-- Function 7: Classroom Interaction (bottom-right) -->
+  <g filter="url(#sh2)">
+    <rect x="710" y="495" width="180" height="90" rx="12" fill="url(#g7)"/>
+    <text x="800" y="522" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">⑦ 课堂互动设计</text>
+    <text x="800" y="542" text-anchor="middle" font-size="11" fill="#fff">26种活动 · 全员参与</text>
+    <text x="800" y="560" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">Classroom Interaction</text>
+    <text x="800" y="575" text-anchor="middle" font-size="10" fill="#fff" opacity="0.85">A/B/C/D四类活动库</text>
+  </g>
+
+  <!-- Bottom synergy bar -->
+  <rect x="120" y="610" width="760" height="50" rx="10" fill="#fff" stroke="#e2e8f0" filter="url(#sh2)"/>
+  <text x="500" y="632" text-anchor="middle" font-size="13" fill="#2563eb" font-weight="bold">⚙ 七大功能协同使用 Cross-Function Synergy</text>
+  <text x="500" y="650" text-anchor="middle" font-size="11" fill="#64748b">教案为基础 → 逐层生成案例 → PPT → 问答 → 互动 = 完整教学准备包</text>
+</svg>

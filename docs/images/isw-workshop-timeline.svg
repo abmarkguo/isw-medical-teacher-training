@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/><stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+    <linearGradient id="day1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#2563eb"/></linearGradient>
+    <linearGradient id="day2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="day3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+    <linearGradient id="day4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+    <filter id="sh3" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="720" fill="url(#bg3)"/>
+
+  <!-- Title -->
+  <text x="500" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e293b">ISW 工作坊四天流程</text>
+  <text x="500" y="58" text-anchor="middle" font-size="13" fill="#64748b">ISW 4-Day Workshop Timeline · 24学时 · 3轮微格教学</text>
+
+  <!-- Day 1 -->
+  <g filter="url(#sh3)">
+    <rect x="30" y="85" width="220" height="580" rx="14" fill="#fff" stroke="#dbeafe"/>
+    <rect x="30" y="85" width="220" height="42" rx="14" fill="url(#day1)"/>
+    <rect x="30" y="113" width="220" height="14" fill="url(#day1)"/>
+    <text x="140" y="112" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">Day 1 · 第一天</text>
+    <text x="140" y="152" text-anchor="middle" font-size="12" fill="#2563eb" font-weight="bold">基础与体验 Foundation</text>
+
+    <g font-size="11" fill="#475569">
+      <rect x="50" y="170" width="180" height="3" rx="1" fill="#dbeafe"/>
+      <text x="60" y="192" font-weight="bold" fill="#2563eb">09:00-10:30</text>
+      <text x="60" y="208">开班仪式 · ISW概述</text>
+      <text x="60" y="222" font-size="10" fill="#94a3b8">BOPPPS模型导入</text>
+
+      <rect x="50" y="235" width="180" height="3" rx="1" fill="#dbeafe"/>
+      <text x="60" y="257" font-weight="bold" fill="#2563eb">10:45-12:00</text>
+      <text x="60" y="273">微格教学第1轮</text>
+      <text x="60" y="287" font-size="10" fill="#94a3b8">体验流程 · 质性反馈</text>
+
+      <rect x="50" y="300" width="180" height="3" rx="1" fill="#dbeafe"/>
+      <text x="60" y="322" font-weight="bold" fill="#2563eb">13:30-15:00</text>
+      <text x="60" y="338">反馈技能训练</text>
+      <text x="60" y="352" font-size="10" fill="#94a3b8">I liked / I wished / I wondered</text>
+
+      <rect x="50" y="365" width="180" height="3" rx="1" fill="#dbeafe"/>
+      <text x="60" y="387" font-weight="bold" fill="#2563eb">15:15-17:00</text>
+      <text x="60" y="403">医学教学法专题</text>
+      <text x="60" y="417" font-size="10" fill="#94a3b8">PBL/CBL/TBL与BOPPPS</text>
+
+      <rect x="50" y="430" width="180" height="3" rx="1" fill="#dbeafe"/>
+      <text x="60" y="452" font-weight="bold" fill="#2563eb">17:00-18:00</text>
+      <text x="60" y="468">反思日志 · 备课准备</text>
+    </g>
+
+    <rect x="50" y="500" width="180" height="40" rx="8" fill="#eff6ff"/>
+    <text x="140" y="518" text-anchor="middle" font-size="11" fill="#2563eb" font-weight="bold">第一天成果</text>
+    <text x="140" y="533" text-anchor="middle" font-size="10" fill="#64748b">理解BOPPPS · 完成首轮教学</text>
+
+    <rect x="50" y="555" width="180" height="80" rx="8" fill="#f0f9ff" stroke="#bae6fd"/>
+    <text x="140" y="575" text-anchor="middle" font-size="11" fill="#0369a1" font-weight="bold">医学特色环节</text>
+    <text x="140" y="593" text-anchor="middle" font-size="10" fill="#64748b">临床案例导入演示</text>
+    <text x="140" y="608" text-anchor="middle" font-size="10" fill="#64748b">医学教学法选择决策树</text>
+    <text x="140" y="623" text-anchor="middle" font-size="10" fill="#64748b">学科适配分组讨论</text>
+  </g>
+
+  <!-- Day 2 -->
+  <g filter="url(#sh3)">
+    <rect x="270" y="85" width="220" height="580" rx="14" fill="#fff" stroke="#ede9fe"/>
+    <rect x="270" y="85" width="220" height="42" rx="14" fill="url(#day2)"/>
+    <rect x="270" y="113" width="220" height="14" fill="url(#day2)"/>
+    <text x="380" y="112" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">Day 2 · 第二天</text>
+    <text x="380" y="152" text-anchor="middle" font-size="12" fill="#7c3aed" font-weight="bold">深化与改进 Improvement</text>
+
+    <g font-size="11" fill="#475569">
+      <rect x="290" y="170" width="180" height="3" rx="1" fill="#ede9fe"/>
+      <text x="300" y="192" font-weight="bold" fill="#7c3aed">09:00-10:30</text>
+      <text x="300" y="208">教学目标设计专题</text>
+      <text x="300" y="222" font-size="10" fill="#94a3b8">Bloom动词 · 三维目标</text>
+
+      <rect x="290" y="235" width="180" height="3" rx="1" fill="#ede9fe"/>
+      <text x="300" y="257" font-weight="bold" fill="#7c3aed">10:45-12:00</text>
+      <text x="300" y="273">微格教学第2轮</text>
+      <text x="300" y="287" font-size="10" fill="#94a3b8">聚焦改进 · 引入深化</text>
+
+      <rect x="290" y="300" width="180" height="3" rx="1" fill="#ede9fe"/>
+      <text x="300" y="322" font-weight="bold" fill="#7c3aed">13:30-15:00</text>
+      <text x="300" y="338">参与式学习策略</text>
+      <text x="300" y="352" font-size="10" fill="#94a3b8">活动设计 · 全员参与</text>
+
+      <rect x="290" y="365" width="180" height="3" rx="1" fill="#ede9fe"/>
+      <text x="300" y="387" font-weight="bold" fill="#7c3aed">15:15-17:00</text>
+      <text x="300" y="403">前后测设计专题</text>
+      <text x="300" y="417" font-size="10" fill="#94a3b8">对接OSCE/mini-CEX</text>
+
+      <rect x="290" y="430" width="180" height="3" rx="1" fill="#ede9fe"/>
+      <text x="300" y="452" font-weight="bold" fill="#7c3aed">17:00-18:00</text>
+      <text x="300" y="468">反思日志 · 备课准备</text>
+    </g>
+
+    <rect x="290" y="500" width="180" height="40" rx="8" fill="#f5f3ff"/>
+    <text x="380" y="518" text-anchor="middle" font-size="11" fill="#7c3aed" font-weight="bold">第二天成果</text>
+    <text x="380" y="533" text-anchor="middle" font-size="10" fill="#64748b">深化BOPPPS · 完成二轮教学</text>
+
+    <rect x="290" y="555" width="180" height="80" rx="8" fill="#faf5ff" stroke="#e9d5ff"/>
+    <text x="380" y="575" text-anchor="middle" font-size="11" fill="#7c3aed" font-weight="bold">医学特色环节</text>
+    <text x="380" y="593" text-anchor="middle" font-size="10" fill="#64748b">临床案例驱动教学演练</text>
+    <text x="380" y="608" text-anchor="middle" font-size="10" fill="#64748b">模拟教学体验工作坊</text>
+    <text x="380" y="623" text-anchor="middle" font-size="10" fill="#64748b">医学人文融入设计</text>
+  </g>
+
+  <!-- Day 3 -->
+  <g filter="url(#sh3)">
+    <rect x="510" y="85" width="220" height="580" rx="14" fill="#fff" stroke="#fef3c7"/>
+    <rect x="510" y="85" width="220" height="42" rx="14" fill="url(#day3)"/>
+    <rect x="510" y="113" width="220" height="14" fill="url(#day3)"/>
+    <text x="620" y="112" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">Day 3 · 第三天</text>
+    <text x="620" y="152" text-anchor="middle" font-size="12" fill="#d97706" font-weight="bold">整合与提升 Integration</text>
+
+    <g font-size="11" fill="#475569">
+      <rect x="530" y="170" width="180" height="3" rx="1" fill="#fef3c7"/>
+      <text x="540" y="192" font-weight="bold" fill="#d97706">09:00-10:30</text>
+      <text x="540" y="208">教学互动设计专题</text>
+      <text x="540" y="222" font-size="10" fill="#94a3b8">26种活动 · 互动策略</text>
+
+      <rect x="530" y="235" width="180" height="3" rx="1" fill="#fef3c7"/>
+      <text x="540" y="257" font-weight="bold" fill="#d97706">10:45-12:00</text>
+      <text x="540" y="273">微格教学第3轮</text>
+      <text x="540" y="287" font-size="10" fill="#94a3b8">认证评估 · 量化评分</text>
+
+      <rect x="530" y="300" width="180" height="3" rx="1" fill="#fef3c7"/>
+      <text x="540" y="322" font-weight="bold" fill="#d97706">13:30-15:00</text>
+      <text x="540" y="338">教学评价与反馈</text>
+      <text x="540" y="352" font-size="10" fill="#94a3b8">评分卡使用 · 评价校准</text>
+
+      <rect x="530" y="365" width="180" height="3" rx="1" fill="#fef3c7"/>
+      <text x="540" y="387" font-weight="bold" fill="#d97706">15:15-17:00</text>
+      <text x="540" y="403">教学反思与改进</text>
+      <text x="540" y="417" font-size="10" fill="#94a3b8">深度反思 · 发展计划</text>
+
+      <rect x="530" y="430" width="180" height="3" rx="1" fill="#fef3c7"/>
+      <text x="540" y="452" font-weight="bold" fill="#d97706">17:00-18:00</text>
+      <text x="540" y="468">反思日志 · 认证准备</text>
+    </g>
+
+    <rect x="530" y="500" width="180" height="40" rx="8" fill="#fffbeb"/>
+    <text x="620" y="518" text-anchor="middle" font-size="11" fill="#d97706" font-weight="bold">第三天成果</text>
+    <text x="620" y="533" text-anchor="middle" font-size="10" fill="#64748b">完成三轮教学 · 获得量化评估</text>
+
+    <rect x="530" y="555" width="180" height="80" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="620" y="575" text-anchor="middle" font-size="11" fill="#d97706" font-weight="bold">医学特色环节</text>
+    <text x="620" y="593" text-anchor="middle" font-size="10" fill="#64748b">临床情境模拟教学</text>
+    <text x="620" y="608" text-anchor="middle" font-size="10" fill="#64748b">医学人文案例讨论</text>
+    <text x="620" y="623" text-anchor="middle" font-size="10" fill="#64748b">学科差异化教学展示</text>
+  </g>
+
+  <!-- Day 4 -->
+  <g filter="url(#sh3)">
+    <rect x="750" y="85" width="220" height="580" rx="14" fill="#fff" stroke="#d1fae5"/>
+    <rect x="750" y="85" width="220" height="42" rx="14" fill="url(#day4)"/>
+    <rect x="750" y="113" width="220" height="14" fill="url(#day4)"/>
+    <text x="860" y="112" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">Day 4 · 第四天</text>
+    <text x="860" y="152" text-anchor="middle" font-size="12" fill="#059669" font-weight="bold">认证与展望 Certification</text>
+
+    <g font-size="11" fill="#475569">
+      <rect x="770" y="170" width="180" height="3" rx="1" fill="#d1fae5"/>
+      <text x="780" y="192" font-weight="bold" fill="#059669">09:00-10:30</text>
+      <text x="780" y="208">教学能力综合评估</text>
+      <text x="780" y="222" font-size="10" fill="#94a3b8">7维度评分 · 认证等级</text>
+
+      <rect x="770" y="235" width="180" height="3" rx="1" fill="#d1fae5"/>
+      <text x="780" y="257" font-weight="bold" fill="#059669">10:45-12:00</text>
+      <text x="780" y="273">认证报告生成</text>
+      <text x="780" y="287" font-size="10" fill="#94a3b8">个人报告 · 发展路径</text>
+
+      <rect x="770" y="300" width="180" height="3" rx="1" fill="#d1fae5"/>
+      <text x="780" y="322" font-weight="bold" fill="#059669">13:30-15:00</text>
+      <text x="780" y="338">教学发展路径规划</text>
+      <text x="780" y="352" font-size="10" fill="#94a3b8">IDP制定 · 资源推荐</text>
+
+      <rect x="770" y="365" width="180" height="3" rx="1" fill="#d1fae5"/>
+      <text x="780" y="387" font-weight="bold" fill="#059669">15:15-16:30</text>
+      <text x="780" y="403">结业典礼</text>
+      <text x="780" y="417" font-size="10" fill="#94a3b8">证书颁发 · 优秀表彰</text>
+
+      <rect x="770" y="430" width="180" height="3" rx="1" fill="#d1fae5"/>
+      <text x="780" y="452" font-weight="bold" fill="#059669">16:30-17:00</text>
+      <text x="780" y="468">工作坊总结 · 闭幕</text>
+    </g>
+
+    <rect x="770" y="500" width="180" height="40" rx="8" fill="#ecfdf5"/>
+    <text x="860" y="518" text-anchor="middle" font-size="11" fill="#059669" font-weight="bold">第四天成果</text>
+    <text x="860" y="533" text-anchor="middle" font-size="10" fill="#64748b">获得认证 · 明确发展路径</text>
+
+    <rect x="770" y="555" width="180" height="80" rx="8" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <text x="860" y="575" text-anchor="middle" font-size="11" fill="#059669" font-weight="bold">医学特色环节</text>
+    <text x="860" y="593" text-anchor="middle" font-size="10" fill="#64748b">医学教学认证证书</text>
+    <text x="860" y="608" text-anchor="middle" font-size="10" fill="#64748b">FDW候选人推荐</text>
+    <text x="860" y="623" text-anchor="middle" font-size="10" fill="#64748b">医学院校教学共同体</text>
+  </g>
+</svg>

@@ -14,7 +14,15 @@
 
 This skill provides complete ISW training support for medical school faculty, covering seven core functions aligned with international ISW standards and Chinese medical education requirements. It is designed for the [WorkBuddy](https://www.codebuddy.cn/) AI assistant platform.
 
-### Seven Core Functions
+### BOPPPS Model Overview
+
+![BOPPPS Model](docs/images/boppps-model-flow.svg)
+
+The BOPPPS six-step model is the core framework of ISW training. This skill adapts each step for medical education with clinical case integration, pedagogy alignment, and medical humanities embedding.
+
+### Seven Core Functions Architecture
+
+![Seven Functions](docs/images/seven-functions-architecture.svg)
 
 | # | Function | Description |
 |---|----------|-------------|
@@ -25,6 +33,20 @@ This skill provides complete ISW training support for medical school faculty, co
 | 5 | **Progressive Questioning Design** | Scaffolded question chains based on Bloom's taxonomy, with four medical questioning patterns (CRS/MEL/EDL/SKL) and follow-up strategies |
 | 6 | **Detailed Clinical Case Writing** | 7-stage progressive disclosure clinical cases with ethical discussions, cross-disciplinary links, and L1-L5 difficulty levels |
 | 7 | **Classroom Interaction Design** | 26 interactive activities across four categories (quick/structured/role-play/tech-enhanced), with full-participation guarantees |
+
+### ISW 4-Day Workshop Timeline
+
+![Workshop Timeline](docs/images/isw-workshop-timeline.svg)
+
+### Assessment & Certification Flow
+
+![Assessment Flow](docs/images/assessment-certification-flow.svg)
+
+### Complete Lesson Preparation Workflow
+
+![Preparation Workflow](docs/images/complete-prep-workflow.svg)
+
+All seven functions can work independently or collaboratively. The workflow above shows how a complete teaching package is generated step by step, starting from a BOPPPS lesson plan.
 
 ### Key Features
 
@@ -50,6 +72,12 @@ isw-medical-teacher-training/
 ├── SKILL.md                          # Main instruction file (7 workflows, 3 role modes)
 ├── README.md                         # This file
 ├── .gitignore
+├── docs/images/                      # Flowchart diagrams
+│   ├── boppps-model-flow.svg         # BOPPPS six-step model flowchart
+│   ├── seven-functions-architecture.svg # Seven functions architecture diagram
+│   ├── isw-workshop-timeline.svg     # 4-day workshop timeline
+│   ├── assessment-certification-flow.svg # Assessment & certification flowchart
+│   └── complete-prep-workflow.svg    # Complete lesson preparation workflow
 ├── references/                       # Reference documents (loaded on demand)
 │   ├── isw-standards.md              # ISW international/domestic standards
 │   ├── boppps-model-guide.md         # BOPPPS six-step model detailed guide
@@ -124,7 +152,15 @@ isw-medical-teacher-training/
 
 本技能为医学院校教师提供完整的 ISW（Instructional Skills Workshop，教学技能工作坊）培训支持，涵盖七大核心功能，遵循 ISW 国际标准和中国医学教育规范，融入多学科适配、临床案例驱动、医学人文伦理等特色。基于 [WorkBuddy](https://www.codebuddy.cn/) AI 助手平台构建。
 
-### 七大核心功能
+### BOPPPS 模型概览
+
+![BOPPPS模型](docs/images/boppps-model-flow.svg)
+
+BOPPPS 六步模型是 ISW 培训的核心框架。本技能针对医学教育场景对每个环节进行了特色适配，包括临床案例整合、教学法对接和医学人文融入。
+
+### 七大核心功能架构
+
+![七大功能](docs/images/seven-functions-architecture.svg)
 
 | 编号 | 功能名称 | 说明 |
 |:---:|---------|------|
@@ -135,6 +171,20 @@ isw-medical-teacher-training/
 | 5 | **循序问答设计** | 基于Bloom分类学构建递进问题链，含四种医学问答模式（CRS/MEL/EDL/SKL）和追问策略 |
 | 6 | **详细临床案例编写** | 7阶段渐进信息释放的临床案例，含伦理讨论、跨学科链接和L1-L5难度分级 |
 | 7 | **课堂互动设计** | 26种互动活动（快速/结构化讨论/角色扮演/技术增强四类），保障全员参与和认知深度 |
+
+### ISW 工作坊四天流程
+
+![工作坊流程](docs/images/isw-workshop-timeline.svg)
+
+### 教学能力评估与认证流程
+
+![评估流程](docs/images/assessment-certification-flow.svg)
+
+### 完整备课协同流程
+
+![备课流程](docs/images/complete-prep-workflow.svg)
+
+七大功能可独立使用，也可组合形成完整的教学准备方案。上图展示了从BOPPPS教案出发，逐层生成案例、PPT、问答和互动方案，最终形成完整教学准备包的协同流程。
 
 ### 核心特色
 
@@ -160,6 +210,12 @@ isw-medical-teacher-training/
 ├── SKILL.md                          # 主指令文件（7大工作流程，3种角色模式）
 ├── README.md                         # 本文件
 ├── .gitignore
+├── docs/images/                      # 流程图
+│   ├── boppps-model-flow.svg         # BOPPPS六步模型流程图
+│   ├── seven-functions-architecture.svg # 七大功能架构图
+│   ├── isw-workshop-timeline.svg     # ISW工作坊四天流程图
+│   ├── assessment-certification-flow.svg # 评估认证流程图
+│   └── complete-prep-workflow.svg    # 完整备课协同流程图
 ├── references/                       # 参考文档（按需加载）
 │   ├── isw-standards.md              # ISW国际国内标准、三级认证体系
 │   ├── boppps-model-guide.md         # BOPPPS六步模型详解
@@ -249,7 +305,9 @@ Issues and pull requests are welcome! Please ensure any clinical cases submitted
 - ISW originated at the University of British Columbia (UBC) and has been adopted by medical schools worldwide
 - BOPPPS model was developed by Douglas Kerr at UBC
 - This skill adapts ISW standards for the Chinese medical education context
+- **Special thanks to Professor Chen Peng from Jinan for his strong support**
 
 - ISW 起源于加拿大英属哥伦比亚大学（UBC），已被全球医学院校广泛采用
 - BOPPPS 模型由 UBC 的 Douglas Kerr 开发
 - 本技能将 ISW 标准适配至中国医学教育情境
+- **特别感谢济南陈鹏教授的鼎力支持**
