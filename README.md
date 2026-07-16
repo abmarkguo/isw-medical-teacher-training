@@ -2,9 +2,9 @@
 
 # ISW 医学院教师培训技能
 
-> A comprehensive AI-powered skill for Instructional Skills Workshop (ISW) training in medical education, built for the WorkBuddy platform.
+> A comprehensive AI-powered skill for Instructional Skills Workshop (ISW) training in medical education, built for the OpenClaw platform.
 >
-> 面向医学院校的 ISW（教学技能工作坊）AI 辅助培训技能，基于 WorkBuddy 平台构建。
+> 面向医学院校的 ISW（教学技能工作坊）AI 辅助培训技能，基于 OpenClaw 平台构建。
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### Overview
 
-This skill provides complete ISW training support for medical school faculty, covering seven core functions aligned with international ISW standards and Chinese medical education requirements. It is designed for the [WorkBuddy](https://www.codebuddy.cn/) AI assistant platform.
+This skill provides complete ISW training support for medical school faculty, covering seven core functions aligned with international ISW standards and Chinese medical education requirements. It is designed for the [OpenClaw](https://www.codebuddy.cn/) AI assistant platform.
 
 ### BOPPPS Model Overview
 
@@ -102,18 +102,18 @@ isw-medical-teacher-training/
 
 ### How to Use
 
-#### Option A: Install via WorkBuddy
+#### Option A: Install via OpenClaw
 
 1. Download or clone this repository
-2. Copy the `isw-medical-teacher-training` folder to `~/.workbuddy/skills/`
-3. Restart WorkBuddy — the skill will be available automatically
+2. Copy the `isw-medical-teacher-training` folder to `~/.openclaw/skills/`
+3. Restart OpenClaw — the skill will be available automatically
 4. Trigger by mentioning keywords like "ISW培训", "BOPPPS教案", "教学PPT", "临床案例", "课堂互动"
 
 #### Option B: Use the Packaged Version
 
 1. Download `isw-medical-teacher-training.zip` from releases
-2. Extract to `~/.workbuddy/skills/`
-3. Restart WorkBuddy
+2. Extract to `~/.openclaw/skills/`
+3. Restart OpenClaw
 
 ### Usage Examples
 
@@ -150,7 +150,7 @@ isw-medical-teacher-training/
 
 ### 项目概述
 
-本技能为医学院校教师提供完整的 ISW（Instructional Skills Workshop，教学技能工作坊）培训支持，涵盖七大核心功能，遵循 ISW 国际标准和中国医学教育规范，融入多学科适配、临床案例驱动、医学人文伦理等特色。基于 [WorkBuddy](https://www.codebuddy.cn/) AI 助手平台构建。
+本技能为医学院校教师提供完整的 ISW（Instructional Skills Workshop，教学技能工作坊）培训支持，涵盖七大核心功能，遵循 ISW 国际标准和中国医学教育规范，融入多学科适配、临床案例驱动、医学人文伦理等特色。基于 [OpenClaw](https://www.codebuddy.cn/) AI 助手平台构建。
 
 ### BOPPPS 模型概览
 
@@ -243,15 +243,15 @@ isw-medical-teacher-training/
 #### 方式一：直接安装
 
 1. 下载或克隆本仓库
-2. 将 `isw-medical-teacher-training` 文件夹复制到 `~/.workbuddy/skills/`
-3. 重启 WorkBuddy，技能自动生效
+2. 将 `isw-medical-teacher-training` 文件夹复制到 `~/.openclaw/skills/`
+3. 重启 OpenClaw，技能自动生效
 4. 通过关键词触发："ISW培训"、"BOPPPS教案"、"教学PPT"、"临床案例"、"课堂互动"
 
 #### 方式二：使用打包版本
 
 1. 从 Releases 下载 `isw-medical-teacher-training.zip`
-2. 解压到 `~/.workbuddy/skills/`
-3. 重启 WorkBuddy
+2. 解压到 `~/.openclaw/skills/`
+3. 重启 OpenClaw
 
 ### 使用示例
 
