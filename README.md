@@ -2,9 +2,20 @@
 
 # ISW 医学院教师培训技能
 
-> A comprehensive AI-powered skill for Instructional Skills Workshop (ISW) training in medical education, built for the OpenClaw platform.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Made for Medical Education](https://img.shields.io/badge/Made%20for-Medical%20Education-red.svg)](https://github.com/abmarkguo/isw-medical-teacher-training)
+[![ISW Standard](https://img.shields.io/badge/ISW-Standard-blue.svg)](https://github.com/abmarkguo/isw-medical-teacher-training)
+[![BOPPPS Model](https://img.shields.io/badge/BOPPPS-Model-green.svg)](https://github.com/abmarkguo/isw-medical-teacher-training)
+[![Chinese](https://img.shields.io/badge/README-中文-orange.svg)](#中文介绍)
+[![English](https://img.shields.io/badge/README-English-brightgreen.svg)](#english-introduction)
+
+> A comprehensive AI-powered skill for **Instructional Skills Workshop (ISW)** training in medical education — BOPPPS lesson plans, workshop facilitation, teaching certification, PPT design, progressive questioning, clinical cases, and classroom interaction.
 >
-> 面向医学院校的 ISW（教学技能工作坊）AI 辅助培训技能，基于 OpenClaw 平台构建。
+> 面向医学院校的 **ISW（教学技能工作坊）** AI 辅助培训技能 — BOPPPS 教案生成、工作坊引导、教学能力认证、精品 PPT、循序问答、临床案例、课堂互动。
+
+**Keywords:** ISW, Instructional Skills Workshop, BOPPPS, medical education, faculty development, teaching skills, microteaching, lesson plan, PBL, CBL, TBL, simulation, OSCE, mini-CEX, DOPS, clinical case, classroom interaction, AI education, 教学技能工作坊, 教学设计, 医学教育, 微格教学, 教案设计, 临床案例教学
+
+**关键词:** ISW培训, BOPPPS教案, 教学技能工作坊, 微格教学, 医学教育, 临床教学, PBL, CBL, TBL, 模拟教学, OSCE, mini-CEX, 教学PPT, 课堂互动, 教学能力评估, 教师培训, 医学院, 教学设计, 循序问答, 临床案例
 
 ---
 
