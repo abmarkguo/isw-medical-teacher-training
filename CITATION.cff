@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "ISW Medical Teacher Training Skill"
+message: "If you use this skill in your medical education training, please cite it as below."
+type: software
+authors:
+  - alias: abmarkguo
+keywords:
+  - ISW
+  - Instructional Skills Workshop
+  - BOPPPS
+  - medical education
+  - faculty development
+  - teaching skills
+  - microteaching
+  - clinical case-based learning
+  - PBL
+  - CBL
+  - TBL
+  - OSCE
+  - lesson plan
+  - classroom interaction
+license: MIT
+repository-code: "https://github.com/abmarkguo/isw-medical-teacher-training"
+version: "1.0.0"
+date-released: "2026-07-16"
+abstract: >-
+  A comprehensive AI-powered skill for Instructional Skills Workshop (ISW)
+  training in medical education. Provides seven core functions: BOPPPS lesson
+  plan generation, ISW workshop facilitation, teaching competency assessment
+  and certification, premium PPT design, progressive questioning design,
+  detailed clinical case writing, and classroom interaction design. Supports
+  Basic Medicine, Clinical Medicine, Nursing, and Pharmacy disciplines.
